@@ -14,6 +14,7 @@ const Navbar = () => {
               src="images/logonew1.png.svg"
               width={100}
               height={100}
+              alt="logo"
               className=""
             ></Image>
           </Link>

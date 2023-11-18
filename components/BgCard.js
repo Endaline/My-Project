@@ -9,6 +9,7 @@ const BgCard = () => {
           src="images/bgcard.svg"
           width={250}
           height={200}
+          alt="bgCard"
           className=""
         ></Image>
       </div>
