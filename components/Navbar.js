@@ -7,7 +7,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex justify-between fixed w-full text-black ">
+      <nav className="flex justify-between fixed w-full text-black z-50 px-6 pt-10">
         <div>
           <Link href="/">
             <Image
@@ -15,12 +15,11 @@ const Navbar = () => {
               width={100}
               height={100}
               alt="logo"
-              className=""
-            ></Image>
+              className=""></Image>
           </Link>
         </div>
 
-        <ul className="font-[800] flex gap-6 cursor-pointer">
+        <ul className="font-[800] hidden md:flex gap-6 cursor-pointer ">
           <Link href="/">
             <li>Home</li>
           </Link>
