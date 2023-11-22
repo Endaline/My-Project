@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        mic: "url(../public/images/image.svg)",
+        mic: "url(../public/images/image.png)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
