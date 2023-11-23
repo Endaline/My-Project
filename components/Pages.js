@@ -1,19 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import { LiaArrowRightSolid } from "react-icons/lia";
+import BgCard from "./BgCard";
 
 const Pages = () => {
   return (
     <div
       id="pages"
       className="bg-white w-full h-[80vh] text-black overflow-hidden">
-      <div className="mx-[265px] pt-60 max-h-[34rem] flex w-full max-w[1300px] gap-x-20 md:gap-x-40">
-        <div className=" max-w-[32.5rem] space-y-4">
-          <h1 className="text-3xl font-bold">
+      <div className="absolute bottom-0 w-[1200px] mx-auto rounded-2xl ">
+        <BgCard />
+      </div>
+      <div className="mx-4 xl:mx-[265px] pt-20 md:pt-60 max-h-[34rem] flex flex-col md:flex-row w-full md:max-w-7xl gap-6 md:gap-20">
+        <div className="max-w-[32.5rem] space-y-4">
+          <h1 className="text-2xl md:text-3xl font-bold">
             Best places to find <br /> design inspiration
           </h1>
           <div className="flex items-center gap-3 ">
-            <p className="border w-14 h-14 rounded-full text-[#CECECE] "> </p>
+            <p className="border w-10 h-10 md:w-14 md:h-14 rounded-full text-[#CECECE]"></p>
             <div>
               <p className="text-black">Episode 1</p>
               <p className="text-[#8E8B8C]">
@@ -51,7 +55,7 @@ const Pages = () => {
             alt=""
             width={400}
             height={400}
-            className="object-cover w-full h-[25rem] rounded-2xl"></Image>
+            className="object-cover w-full h-[20rem] md:h-[25rem] rounded-2xl"></Image>
         </div>
       </div>
     </div>

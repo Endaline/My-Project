@@ -5,21 +5,21 @@ import { GiSpeaker } from "react-icons/gi";
 
 const BgCard = () => {
   return (
-    <div className="text-black mx-[280px] w-full max-w-[1100px]">
-      <div className=" bg-white shadow-xl flex">
+    <div className="text-black mx-4 xl:mx-[265px] w-full max-w-[1100px] hidden lg:flex ">
+      <div className=" bg-white shadow-xl flex rounded-2xl">
         <Image
           src="images/bgcard.svg"
           width={300}
           height={400}
           alt="bgCard"
           className=""></Image>
-        <div className="bg-white w-full p-8">
+        <div className="bg-white md:w-full w-3/4 p-8">
           <div>
-            <div className="flex justify-between items-center">
+            <div className="flex md:justify-between justify-center items-center">
               <div>
                 <h1 className="font-bold text-3xl">Timmy Mike:the nature</h1>
               </div>
-              <div className="flex items-center font-bold">
+              <div className="flex items-center font-bold cursor-pointer">
                 <p>Episode page</p>
                 <p className="pl-2">
                   <LiaArrowRightSolid />
@@ -32,7 +32,7 @@ const BgCard = () => {
           <div>
             <p className="text-[#8E8B8C] pt-4">Episode 1 . Microphone .0:13</p>
           </div>
-          <div className="flex items-end gap-4 pt-4">
+          <div className="flex items-end gap-2 md:gap-4 pt-4">
             <p className="border w-16 h-16 rounded-full text-[#CECECE] "> </p>
             <p className="text-[#8E8B8C]">
               <i>10s</i> <i>10s</i>
