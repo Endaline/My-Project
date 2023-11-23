@@ -15,8 +15,8 @@ export default function Home() {
         <Navbar />
       </nav>
       <main className=" min-h-screen  w-full overflow-x-hidden">
-        <div className="bg-mic h-[800px] bg-center w-full bg-no-repeat bg-cover">
-          <div className="mx-4 md:mx-[265px] text-black pt-40 absolute w-full md:h-52">
+        <div className="bg-mic h-screen bg-center w-full bg-no-repeat bg-cover">
+          <div className="mx-4 xl:mx-[265px] text-black pt-40 absolute w-full md:h-52">
             <div>
               <h1 className="font-extrabold text-4xl md:text-6xl text-center md:text-left">
                 New episode <br /> available now

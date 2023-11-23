@@ -9,7 +9,7 @@ const BgCard = () => {
       <div className=" bg-white shadow-xl flex rounded-2xl">
         <Image
           src="images/bgcard.svg"
-          width={300}
+          width={350}
           height={400}
           alt="bgCard"
           className=""></Image>
@@ -39,7 +39,7 @@ const BgCard = () => {
             </p>
             <div className="flex justify-center items-center text-black space-x-3 mb-4">
               <p className="border w-3 h-3  bg-black rounded-full "></p>
-              <p className="w-[450px] border-b-2 font-extrabold"></p>
+              <p className="w-[300px] border-b-2 font-extrabold"></p>
               <p className="text-[#8E8B8C]">00:00/00:00</p>
               <p className="text-2xl">
                 <GiSpeaker />

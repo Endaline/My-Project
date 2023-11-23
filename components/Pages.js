@@ -8,7 +8,7 @@ const Pages = () => {
     <div
       id="pages"
       className="bg-white w-full h-[80vh] text-black overflow-hidden z-0">
-      <div className="absolute bottom-0 w-[1200px] mx-auto rounded-2xl ">
+      <div className="absolute top-[50rem] w-full mx-auto rounded-2xl ">
         <BgCard />
       </div>
       <div className="mx-4 xl:mx-[265px] pt-20 md:pt-60 max-h-[34rem] flex flex-col md:flex-row w-full md:max-w-7xl gap-6 md:gap-20">
@@ -25,7 +25,7 @@ const Pages = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="w-full">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -33,7 +33,7 @@ const Pages = () => {
               nisi ut aliquip.
             </p>
           </div>
-          <div>
+          <div className="w-full">
             <p>
               Ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
               voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -55,7 +55,7 @@ const Pages = () => {
             alt=""
             width={400}
             height={400}
-            className="object-cover w-full h-[20rem] md:h-[25rem] rounded-2xl"></Image>
+            className="object-cover w-full lg:w-full md:w-5/6 h-[20rem] lg:h-[25rem] rounded-2xl"></Image>
         </div>
       </div>
     </div>
