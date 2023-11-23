@@ -11,7 +11,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <nav className="flex justify-between fixed w-full text-black z-50 px-6 pt-10">
+      <nav className="flex justify-between fixed w-full text-black z-50 px-6 py-10">
         <div className="cursor-pointer">
           <Link href="/">
             <Image
@@ -62,9 +62,9 @@ const Navbar = () => {
       </nav>
 
       <nav className="flex justify-between fixed w-full text-black z-50 px-6 pt-10">
-        <div className="w-full pt-6">
+        <div className="w-full pt-6  ">
           {showMenu && (
-            <ul className="font-[800] gap-6 cursor-pointer pt-6 w-full z-50 bg-black text-white flex flex-col items-center ">
+            <ul className="font-[800] gap-6 cursor-pointer pt-6 w-full z-50 bg-black text-white flex flex-col items-center shadow-2xl rounded-md ">
               <Link href="/">
                 <li className="hover:underline transition-all ease-in duration-300">
                   Home
@@ -99,11 +99,11 @@ const Navbar = () => {
             className=" flex md:hidden text-xl cursor-pointer pl-4"
             onClick={() => setShowMenu(!showMenu)}>
             {showMenu ? (
-              <span>
+              <span className="transition-[0.3s] ease-in-out duration-500">
                 <LiaTimesSolid />
               </span>
             ) : (
-              <span>
+              <span className="transition-[0.3s] ease-in-out duration-500">
                 <IoMdMenu />
               </span>
             )}

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-black w-full text-white">
       <div className="mx-4 lg:mx-[265px]">
-        <div className="flex flex-col md:flex-row max-w-full md:max-w-2xl mx-auto">
+        <div className="flex flex-col md:flex-row max-w-full md:max-w-2xl mx-auto mt-6">
           <div className="w-full md:w-[332.5px] mb-8 md:mb-0">
             <Image
               src="images/logo2.svg"

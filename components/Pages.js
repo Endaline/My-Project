@@ -7,7 +7,7 @@ const Pages = () => {
   return (
     <div
       id="pages"
-      className="bg-white w-full h-[80vh] text-black overflow-hidden">
+      className="bg-white w-full h-[80vh] text-black overflow-hidden z-0">
       <div className="absolute bottom-0 w-[1200px] mx-auto rounded-2xl ">
         <BgCard />
       </div>
