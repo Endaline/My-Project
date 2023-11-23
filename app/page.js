@@ -14,8 +14,8 @@ export default function Home() {
       <nav>
         <Navbar />
       </nav>
-      <main className=" min-h-screen  w-full overflow-x-hidden">
-        <div className="bg-mic h-screen bg-center w-full bg-no-repeat bg-cover">
+      <main className=" min-h-screen  w-full overflow-x-hidden pt-8 md:pt-0">
+        <div className="bg-mic  bg-center lg:h-screen h-[50vh] pt-6  lg:bg-right w-full bg-no-repeat bg-cover">
           <div className="mx-4 xl:mx-[265px] text-black pt-40 absolute w-full md:h-52">
             <div>
               <h1 className="font-extrabold text-4xl md:text-6xl text-center md:text-left">
@@ -27,7 +27,7 @@ export default function Home() {
                 Available on Apple Podcasts and Soundcloud
               </p>
             </div>
-            <div className="flex  mt-4 md:mt-14 gap-4">
+            <div className="flex  mt-4 lg:mt-14 gap-4">
               <div className="flex justify-center pt-2 w-[12rem] h-[3.5rem] bg-black text-white rounded-full  cursor-pointer">
                 <div>
                   <p className="font-extrabold text-3xl md:text-4xl">
